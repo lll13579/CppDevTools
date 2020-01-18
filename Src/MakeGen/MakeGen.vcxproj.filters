@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MakeGenMain.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="Dir.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="ProjectRegistry.cpp" />
+    <ClCompile Include="Script_CompilerOptions.cpp" />
+    <ClCompile Include="Script_LinkerOptions.cpp" />
+    <ClCompile Include="Script.cpp" />
+    <ClCompile Include="Script_ResourceOptions.cpp" />
+    <ClCompile Include="Projects.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project.hpp" />
+    <ClInclude Include="File.hpp" />
+    <ClInclude Include="Dir.hpp" />
+    <ClInclude Include="Def.hpp" />
+    <ClInclude Include="ProjectRegistry.hpp" />
+    <ClInclude Include="Script.hpp" />
+    <ClInclude Include="String.hpp" />
+    <ClInclude Include="ResourcePath.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_MakeSuccess.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MakeGen.props" />
+  </ItemGroup>
+</Project>
