@@ -1,0 +1,14 @@
+# Top level directories to ignore
+/Build/
+/Src/.vs
+/Src/ipch/
+/Test/
+/Tmp/
+
+# File extensions to ignore
+*.opensdf
+*.sdf
+*.suo
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
