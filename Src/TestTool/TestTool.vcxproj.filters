@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TestUtil.hpp" />
+    <ClInclude Include="TestFile.hpp" />
+    <ClInclude Include="TestEvent.hpp" />
+    <ClInclude Include="Impl\TestAbortException.hpp">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\TestCase.hpp">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\TestManager.hpp">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCustomise.hpp" />
+    <ClInclude Include="TestFileSystemErrorHandler.hpp" />
+    <ClInclude Include="Impl\TestUtil.inl.hpp">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Impl\TestCase.inl.hpp">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGuid.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TestTool.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Impl">
+      <UniqueIdentifier>{5004bafc-6a8e-4267-8d73-71acac3cf748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Impl\TestCase.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\TestFile.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\TestManager.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\TestUtil.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\TestFileSystemErrorHandler.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\TestGuid.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
