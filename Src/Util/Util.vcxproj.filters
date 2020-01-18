@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Assert.hpp" />
+    <ClInclude Include="Char.hpp" />
+    <ClInclude Include="CharEncoding.hpp" />
+    <ClInclude Include="CharInputConverter.hpp" />
+    <ClInclude Include="CharOutputConverter.hpp" />
+    <ClInclude Include="Def.hpp" />
+    <ClInclude Include="File.hpp" />
+    <ClInclude Include="String.hpp" />
+    <ClInclude Include="Char\LocaleCharInputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\LocaleCharOutputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Utf8CharInputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Utf8CharOutputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Utf16CharInputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Utf16CharOutputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Utf32CharInputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Utf32CharOutputConverter.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="File\FileRawInput.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\FileRawOutput.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\FileSystemPlatform.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="File\FileSystemVirtual.hpp">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputStream.hpp" />
+    <ClInclude Include="SystemCout.hpp" />
+    <ClInclude Include="OutputStreamWithIndent.hpp" />
+    <ClInclude Include="Version.hpp" />
+    <ClInclude Include="CharInputConverterErrorHandler.hpp" />
+    <ClInclude Include="Windows.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Char">
+      <UniqueIdentifier>{4556fa73-ffbd-4371-9cf9-c4566dbd6e41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{28114865-f79c-4ef7-96da-1aafe813d0a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl">
+      <UniqueIdentifier>{e07b7d44-bc98-4fe7-8cb6-7ee740e32a50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Char\Char.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\CharEncoding.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\CharInputConverter.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\CharOutputConverter.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\String.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="File\DirPath.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileBinaryInput.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileBinaryOutput.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileEncodedInput.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileEncodedOutput.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FilePath.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileSystem.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileSystemErrorHandler.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileSystemPlatform.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="File\FileSystemVirtual.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\SystemCout.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Impl\OutputStream.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Util.props" />
+  </ItemGroup>
+</Project>
