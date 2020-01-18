@@ -4,7 +4,7 @@ Tools for C++ development on Windows.
 A collection of tools which may helpful for certain C++ projects. See the source files for documentation.
 We are unable to provide any further assistance.
 
-To build load Src/all.sln in Microsoft Visual Studio and build all. There are no prerequisites.
+To build load Src/all.sln in Microsoft Visual Studio. If MSV is more recent than 2017 then right click Solution and select Retarget Solution. Then build all. There are no prerequisites.
 
 # AssertHashMap
 A tool for creating a map from an assertion error identifier such as 0073-837881 to its location such as Util\Impl\String.cpp(52).
